@@ -26,7 +26,14 @@ bomavgift_totalt_el = bomavgift_el * ant_km_aar # kr
 # Totalt
 total_el = forsikringEl + trafikkforsikringsavgift_aar + total_drivsstoff_pris_el + bomavgift_totalt_el 
 
+print("Årlige kostnader for ELBIL:")
+print("Forsikring: ", forsikringEl)
+print("Trafikkforsikringsavgift: ", trafikkforsikringsavgift_aar)
+print("Drivstoffbruk: ", total_drivsstoff_pris_el)
+print("Bomavgift: ", bomavgift_totalt_el)
 print("Total kostnader for ELBIL = ", total_el) 
+
+print("")
 
 # Årlig kostnader - BENSINBIL
 
@@ -44,7 +51,14 @@ bomavgift_totalt_bensin = bomavgift_bensin * ant_km_aar # kr
 # Totalt
 total_bensin = forsikringBensin + trafikkforsikringsavgift_aar + total_drivsstoff_pris_bensin + bomavgift_totalt_bensin
 
+print("Årlige kostnader for BENSINBIL:")
+print("Forsikring: ", forsikringBensin)
+print("Trafikkforsikringsavgift: ", trafikkforsikringsavgift_aar)
+print("Drivstoffbruk: ", total_drivsstoff_pris_bensin)
+print("Bomavgift: ", bomavgift_totalt_bensin)
 print("Total kostnader for BENSINBIL = ", total_bensin) 
+
+print("")
 
 if (total_bensin < total_el):
     print ("Du burde velge bensin bil!")

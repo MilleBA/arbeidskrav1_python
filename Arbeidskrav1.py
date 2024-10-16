@@ -24,7 +24,7 @@ bomavgift_el = 0.1 # kr/km
 bomavgift_totalt_el = bomavgift_el * ant_km_aar # kr
 
 # Totalt
-total_el = forsikringEl + trafikkforsikringsavgift_aar + total_drivsstoff_pris_el + bomavgift_totalt_el 
+total_el = forsikringEl + trafikkforsikringsavgift_aar + total_drivsstoff_pris_el + bomavgift_totalt_el # kr
 
 print("Årlige kostnader for ELBIL:")
 print("Forsikring: ", forsikringEl)
@@ -41,7 +41,7 @@ print("")
 forsikringBensin = 7500 # kr/år
 
 # Drivstoffbrukk
-bensin_pris = 1.0
+bensin_pris = 1.0 # kr/km
 total_drivsstoff_pris_bensin = ant_km_aar * bensin_pris # kr
 
 # Bomavgift
@@ -49,7 +49,7 @@ bomavgift_bensin = 0.3 # kr/km
 bomavgift_totalt_bensin = bomavgift_bensin * ant_km_aar # kr
 
 # Totalt
-total_bensin = forsikringBensin + trafikkforsikringsavgift_aar + total_drivsstoff_pris_bensin + bomavgift_totalt_bensin
+total_bensin = forsikringBensin + trafikkforsikringsavgift_aar + total_drivsstoff_pris_bensin + bomavgift_totalt_bensin # kr
 
 print("Årlige kostnader for BENSINBIL:")
 print("Forsikring: ", forsikringBensin)
